@@ -1,0 +1,30 @@
+{
+  "name": "riseandshine-bot",
+  "version": "1.0.0",
+  "description": "Bot for tracking morning workouts",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.6.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.14.10",
+    "eslint": "^8.57.0",
+    "globals": "^15.8.0",
+    "prisma": "^5.17.0",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^7.15.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "dayjs": "^1.11.12",
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3",
+    "telegraf-session-local": "^2.1.1"
+  }
+}
